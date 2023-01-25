@@ -1,0 +1,5 @@
+The ASC Treebank is licensed under the following:
+
+https://creativecommons.org/licenses/by-sa/4.0/
+
+You can share, remix, etc., as long as you provide attribution and share the resulting product.
