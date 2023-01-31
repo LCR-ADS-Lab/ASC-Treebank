@@ -2,13 +2,16 @@
 Related projects
 *****
 
-We build on previous related projects to create a publicly available treebank of ASCs. Below is a brief summary of the projects.
+We build on previous related projects to create a publicly available treebank of ASCs. 
 
 -----
 PropBank (Palmer et al., 2005)
 -----
-* Identified and labeled the semantic arguments on the verb (verb-based)
-* Tagsets (for more information, see Bonial, Babko-Malaya, Choi, Hwang, & Palmer, 2010)
+* This project identified and labeled the semantic arguments on the verb.
+* Tagsets (for more information, see Bonial, Babko-Malaya, Choi, Hwang, & Palmer, 2010 `pdf_`.)
+
+.. pdf: https://clear.colorado.edu/compsem/documents/propbank_guidelines.pdf
+
 ::
 
   Arg0: PROTO-AGENT
@@ -16,7 +19,7 @@ PropBank (Palmer et al., 2005)
   Arg2: benefactive, instrument, attribute
   Arg3: the starting point, benefactive, instrument, Attributive
   Arg4: end point
-  ArgM-: (includes a number of non-numbered arguments such as TMP, LOC, GOL, etc.)
+  ArgM-: (includes a number of modifiers such as TMP, LOC, GOL, etc.)
 
 -----
 FrameNet (Fillmore et al., 2003)
