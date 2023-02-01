@@ -45,7 +45,7 @@ License
 ========
 .. _fig_license:
 
-.. figure:: figures/by-sa.*
+.. figure:: _templates/by-sa.*
    :figwidth: 20%
    :align: center
 
