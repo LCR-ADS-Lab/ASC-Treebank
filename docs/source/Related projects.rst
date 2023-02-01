@@ -49,7 +49,7 @@ PropBank
 
 * References 
 
-  * Palmer, M., Gildea, D., & Kingsbury, P. (2005). The proposition bank: An annotated corpus of semantic roles. *Computational linguistics, 31*(1), 71-106.
+  * Palmer, M., Gildea, D., & Kingsbury, P. (2005). The proposition bank: An annotated corpus of semantic roles. *Computational linguistics, 31* (1), 71-106.
 
   * Palmer, M., Gildea, D., & Xue, N. (2011). *Semantic role labeling*. Morgan & Claypool Publishers.
 
@@ -61,8 +61,8 @@ FrameNet
 
 * References 
 
-  * Fillmore, C. J., Johnson, C. R., & Petruck, M. R. (2003). Background to framenet. *International journal of lexicography, 16*(3), 235-250.
-
+  * Fillmore, C. J., Johnson, C. R., & Petruck, M. R. (2003). Background to framenet. *International journal of lexicography, 16* (3), 235-250.
+  
   * See also https://framenet.icsi.berkeley.edu/fndrupal/ 
 
 -----
@@ -78,7 +78,7 @@ VerbNet
   * See also https://verbs.colorado.edu/verbnet/
   
 -----
-Universal Proposition (UP) Banks (Akbik et al., 2015)
+Universal Proposition (UP) Banks
 -----
 * UP project bannnotated text in different languages with universal semantic role labelling annotations.
 * This project used the frame and role labels of the English PropBank.
