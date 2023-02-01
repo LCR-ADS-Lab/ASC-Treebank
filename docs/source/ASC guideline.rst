@@ -180,7 +180,3 @@ PASSIVE
 ******
 - Each ASC type is tagged next to the main verb head of argument structure construction (e.g., *He* **sneezed**\ :sub:`CAUS_MOT` *the foam off the table*).
 - Multiple, overlaping ASCs may be present in a particular utterance. For example, a clausal argument of an ASC will represent an additional ASC (e.g., [*But the best way* **is**\ :sub:`ATTR` [*to* **use**\ :sub:`TRAN_S` *coupons*]]).
-
-******
-``Abbreviations``
-******
