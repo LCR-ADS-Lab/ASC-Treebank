@@ -40,7 +40,6 @@ Contents
    :caption: Resources
 
    Related projects
-   References
 
 .. toctree::
    :maxdepth: 1
