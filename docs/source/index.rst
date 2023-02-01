@@ -41,3 +41,14 @@ Contents
 
    Related projects
 
+License
+========
+.. _fig_license:
+
+.. figure:: figures/by-sa.*
+   :figwidth: 20%
+   :align: center
+
+
+This documentation and its content are licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_:
+
