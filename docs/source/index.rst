@@ -28,7 +28,7 @@ Contents
 
    
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
    :caption: Introduction
 
    Quick overview
@@ -36,14 +36,8 @@ Contents
    Model performance  
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Resources
 
    Related projects
 
-.. toctree::
-   :maxdepth: 1
-   :caption: Usage
-   
-   usage
-   
