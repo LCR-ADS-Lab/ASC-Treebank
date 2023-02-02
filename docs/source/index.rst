@@ -12,10 +12,8 @@ Citation
 ========
 If you use the model or the treebank, please cite `this <url>`_ (*url will be updated*):
 
-.. code-block:: bibtex
 
-Kyle, K. & Sung, H. (2023). An argument structure construction treebank, CxG+NLP, GURT (Georgetown University Round Table) 2023.
-
+✅ Kyle, K. & Sung, H. (2023). An argument structure construction treebank, CxG+NLP, GURT (Georgetown University Round Table) 2023.
 
 
 Contents
@@ -45,5 +43,7 @@ License
    :align: left
 
 
-This documentation and its content are licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_:
+
+
+* This documentation and its content are licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_.
 
