@@ -1,0 +1,138 @@
+# sent_id = answers-20111108111107AAlrzok_ans-0017													
+"# text = This way, he cannot reach the leash to chew it."													
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	2:det	_	_	_	_	
+2	way	way	NOUN	NN	Number=Sing	7	obl:npmod	7:obl:npmod	SpaceAfter=No	_	_	_	
+3	","	","	PUNCT	","	_	7	punct	7:punct	_	_	_	_	
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	nsubj	7:nsubj	_	_	_	_	
+5	can	can	AUX	MD	VerbForm=Fin	7	aux	7:aux	SpaceAfter=No	_	_	_	
+6	not	not	PART	RB	_	7	advmod	7:advmod	_	_	_	_	
+7	reach	reach	VERB	VB	VerbForm=Inf	0	root	0:root	_	reach.01	theme_V_goal	obl:npmod_nsubj_advmod_V_obj_advcl	TRAN_S
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	9:det	_	_	_	_	
+9	leash	leash	NOUN	NN	Number=Sing	7	obj	7:obj	_	_	_	_	
+10	to	to	PART	TO	_	11	mark	11:mark	_	_	_	_	
+11	chew	chew	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:to	_	chew.01	V_patient	mark_V_obj	TRAN_S
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	obj	11:obj	SpaceAfter=No	_	_	_	
+13	.	.	PUNCT	.	_	7	punct	7:punct	_	_	_	_	
+													
+# newdoc id = reviews-007403													
+# sent_id = reviews-007403-0001													
+# text = My counseling practice													
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	_	_	_	_	
+2	counseling	counseling	NOUN	NN	Number=Sing	3	compound	3:compound	_	_	_	_	
+3	practice	practice	NOUN	NN	Number=Sing	0	root	0:root	_	_	_	_	
+													
+# sent_id = email-enronsent40_01-0010													
+# text = Have a good weekend.													
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	0:root	_	have.03	V_theme	V_obj	TRAN_S
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	_	_	_	_	
+3	good	good	ADJ	JJ	Degree=Pos	4	amod	4:amod	_	_	_	_	
+4	weekend	weekend	NOUN	NN	Number=Sing	1	obj	1:obj	SpaceAfter=No	_	_	_	
+5	.	.	PUNCT	.	_	1	punct	1:punct	_	_	_	_	
+													
+# sent_id = answers-20111108101300AAIAKXN_ans-0011													
+# text = Or you can visit temples or shrines in Okinawa.													
+1	Or	or	CCONJ	CC	_	4	cc	4:cc	_	_	_	_	
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	4:nsubj	_	_	_	_	
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	4:aux	_	_	_	_	
+4	visit	visit	VERB	VB	VerbForm=Inf	0	root	0:root	_	visit.01	agent_V_co-agent	nsubj_V_obj	TRAN_S
+5	temples	temple	NOUN	NNS	Number=Plur	4	obj	4:obj	_	_	_	_	
+6	or	or	CCONJ	CC	_	7	cc	7:cc	_	_	_	_	
+7	shrines	shrine	NOUN	NNS	Number=Plur	5	conj	4:obj|5:conj:or	_	_	_	_	
+8	in	in	ADP	IN	_	9	case	9:case	_	_	_	_	
+9	Okinawa	Okinawa	PROPN	NNP	Number=Sing	5	nmod	5:nmod:in	SpaceAfter=No	_	_	_	
+10	.	.	PUNCT	.	_	4	punct	4:punct	_	_	_	_	
+													
+# sent_id = answers-20111108065616AAKtL2c_ans-0011													
+# text = What is the best option?													
+1	What	what	PRON	WP	PronType=Int	0	root	0:root	_	_	_	_	
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	1:cop	_	be.01	attribute_V_theme	othercomp_Vcop_nsubj	ATTR
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	5:det	_	_	_	_	
+4	best	best	ADJ	JJS	Degree=Sup	5	amod	5:amod	_	_	_	_	
+5	option	option	NOUN	NN	Number=Sing	1	nsubj	1:nsubj	SpaceAfter=No	_	_	_	
+6	?	?	PUNCT	.	_	1	punct	1:punct	_	_	_	_	
+													
+# sent_id = answers-20111106215236AAycANO_ans-0033													
+# text = $3 Coronas & Heineken													
+1	$	$	SYM	$	_	3	compound	3:compound	SpaceAfter=No	_	_	_	
+2	3	3	NUM	CD	NumType=Card	1	nummod	1:nummod	_	_	_	_	
+3	Coronas	Coronas	PROPN	NNPS	Number=Plur	0	root	0:root	_	_	_	_	
+4	&	&	CCONJ	CC	_	5	cc	5:cc	_	_	_	_	
+5	Heineken	Heineken	PROPN	NNP	Number=Sing	3	conj	3:conj	_	_	_	_	
+													
+# sent_id = newsgroup-groups.google.com_herpesnation_c74170a0fcfdc880_ENG_20051125_075200-0002													
+"# text = In George Orwell's influential novel ""1984"" doublethink is a device promoted by the totalitarian state government to make people accept two irreconcilable ideas at the same time such as ""war is peace""."													
+1	In	in	ADP	IN	_	6	case	6:case	_	_	_	_	
+2	George	George	PROPN	NNP	Number=Sing	6	nmod:poss	6:nmod:poss	_	_	_	_	
+3	Orwell	Orwell	PROPN	NNP	Number=Sing	2	flat	2:flat	SpaceAfter=No	_	_	_	
+4	's	's	PART	POS	_	2	case	2:case	_	_	_	_	
+5	influential	influential	ADJ	JJ	Degree=Pos	6	amod	6:amod	_	_	_	_	
+6	novel	novel	NOUN	NN	Number=Sing	13	obl	13:obl:in	_	_	_	_	
+7	"	"	PUNCT	``	_	8	punct	8:punct	SpaceAfter=No	_	_	_		
+8	1984	1984	PROPN	NNP	Number=Sing	6	appos	6:appos	SpaceAfter=No	_	_	_	
+9	"	"	PUNCT	''	_	8	punct	8:punct	_	_	_	_		
+10	doublethink	doublethink	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	_	_	_	_	
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	13:cop	_	be.01	theme_V_attribute	nsubj_Vcop_nomcomp	ATTR
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	_	_	_	_	
+13	device	device	NOUN	NN	Number=Sing	0	root	0:root	_	_	_	_	
+14	promoted	promote	VERB	VBN	Tense=Past|VerbForm=Part	13	acl	13:acl	_	promote.02	theme_Vpassive_agent	Vpassive_by-obl_advcl	PASSIVE
+15	by	by	ADP	IN	_	19	case	19:case	_	_	_	_	
+16	the	the	DET	DT	Definite=Def|PronType=Art	19	det	19:det	_	_	_	_	
+17	totalitarian	totalitarian	ADJ	JJ	Degree=Pos	19	amod	19:amod	_	_	_	_	
+18	state	state	NOUN	NN	Number=Sing	19	compound	19:compound	_	_	_	_	
+19	government	government	NOUN	NN	Number=Sing	14	obl	14:obl:by	_	_	_	_	
+20	to	to	PART	TO	_	21	mark	21:mark	_	_	_	_	
+21	make	make	VERB	VB	VerbForm=Inf	14	advcl	14:advcl:to	_	make.02	agent_V_result	mark_V_ccomp	TRAN_S
+22	people	people	NOUN	NNS	Number=Plur	23	nsubj	23:nsubj	_	_	_	_	
+23	accept	accept	VERB	VB	VerbForm=Inf	21	ccomp	21:ccomp	_	accept.01	agent_V_theme_theme	nsubj_V_obj_at-obl_advcl	TRAN_S
+24	two	two	NUM	CD	NumType=Card	26	nummod	26:nummod	_	_	_	_	
+25	irreconcilable	irreconcilable	ADJ	JJ	Degree=Pos	26	amod	26:amod	_	_	_	_	
+26	ideas	idea	NOUN	NNS	Number=Plur	23	obj	23:obj	_	_	_	_	
+27	at	at	ADP	IN	_	30	case	30:case	_	_	_	_	
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	30:det	_	_	_	_	
+29	same	same	ADJ	JJ	Degree=Pos	30	amod	30:amod	_	_	_	_	
+30	time	time	NOUN	NN	Number=Sing	23	obl	23:obl:at	_	_	_	_	
+31	such	such	ADJ	JJ	Degree=Pos	36	mark	36:mark	_	_	_	_	
+32	as	as	SCONJ	IN	_	31	fixed	31:fixed	_	_	_	_	
+33	"	"	PUNCT	``	_	36	punct	36:punct	SpaceAfter=No	_	_	_		
+34	war	war	NOUN	NN	Number=Sing	36	nsubj	36:nsubj	_	_	_	_	
+35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	36:cop	_	be.01	theme_V_attribute	mark_nsubj_Vcop_nomcomp	ATTR
+36	peace	peace	NOUN	NN	Number=Sing	23	advcl	23:advcl:such_as	SpaceAfter=No	_	_	_	
+37	"	"	PUNCT	''	_	36	punct	36:punct	SpaceAfter=No	_	_	_		
+38	.	.	PUNCT	.	_	13	punct	13:punct	_	_	_	_	
+													
+# sent_id = email-enronsent43_01-0083													
+# text = Any thoughts?													
+1	Any	any	DET	DT	_	2	det	2:det	_	_	_	_	
+2	thoughts	thought	NOUN	NNS	Number=Plur	0	root	0:root	SpaceAfter=No	_	_	_	
+3	?	?	PUNCT	.	_	2	punct	2:punct	_	_	_	_	
+													
+# sent_id = email-enronsent12_01-0071													
+"# text = So I'm going with you, I pay for the gas and the twinkies."													
+1	So	so	ADV	RB	_	4	advmod	4:advmod	_	_	_	_	
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	SpaceAfter=No	_	_	_	
+3	'm	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	4:aux	_	_	_	_	
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	_	go.02	theme_V	advmod_nsubj_V_with-obl	INTRAN_MOT
+5	with	with	ADP	IN	_	6	case	6:case	_	_	_	_	
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	4:obl:with	SpaceAfter=No	_	_	_	
+7	","	","	PUNCT	","	_	4	punct	4:punct	_	_	_	_	
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	9:nsubj	_	_	_	_	
+9	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	parataxis	4:parataxis	_	pay.01	agent_V_theme	nsubj_V_for-obl	TRAN_S
+10	for	for	ADP	IN	_	12	case	12:case	_	_	_	_	
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	12:det	_	_	_	_	
+12	gas	gas	NOUN	NN	Number=Sing	9	obl	9:obl:for	_	_	_	_	
+13	and	and	CCONJ	CC	_	15	cc	15:cc	_	_	_	_	
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	15:det	_	_	_	_	
+15	twinkies	twinky	NOUN	NNS	Number=Plur	12	conj	9:obl:for|12:conj:and	SpaceAfter=No	_	_	_	
+16	.	.	PUNCT	.	_	4	punct	4:punct	_	_	_	_	
+													
+# sent_id = email-enronsent44_01-0074													
+# text = <<Alberta Transmission Access and Pricing Analysis_0712 .doc>>													
+1	<<	<<	PUNCT	-LRB-	_	8	punct	8:punct	SpaceAfter=No	_	_	_	
+2	Alberta	alberta	X	GW	_	8	goeswith	8:goeswith	_	_	_	_	
+3	Transmission	transmission	X	GW	_	8	goeswith	8:goeswith	_	_	_	_	
+4	Access	access	X	GW	_	8	goeswith	8:goeswith	_	_	_	_	
+5	and	and	X	GW	_	8	goeswith	8:goeswith	_	_	_	_	
+6	Pricing	pricing	X	GW	_	8	goeswith	8:goeswith	_	_	_	_	
+7	Analysis_0712	analysis_0712	X	GW	_	8	goeswith	8:goeswith	_	_	_	_	
+8	.doc	.doc	NOUN	NN	Number=Sing	0	root	0:root	SpaceAfter=No	_	_	_	
+9	>>	>>	PUNCT	-RRB-	_	8	punct	8:punct	_	_	_	_	
