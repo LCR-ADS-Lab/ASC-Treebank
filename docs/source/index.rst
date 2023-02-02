@@ -43,7 +43,7 @@ License
 
 .. figure:: _templates/by-sa.*
    :figwidth: 20%
-   :align: center
+   :align: left
 
 
 This documentation and its content are licensed under a `Creative Commons Attribution-ShareAlike 4.0 International License <https://creativecommons.org/licenses/by-sa/4.0/>`_:
