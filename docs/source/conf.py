@@ -20,11 +20,9 @@ sys.path.insert(0, os.path.abspath('../..'))
 # -- Project information
 
 project = 'ASC-Treebank'
-copyright = '2023, LCR-ADS, University of Oregon'
+copyright = 'LCR-ADS Lab, University of Oregon'
 author = 'Kristopher Kyle, Hakyung Sung'
 
-release = '0.0.1'
-version = '0.0.1'
 
 # -- General configuration ---------------------------------------------------
 
@@ -55,7 +53,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#
+
 html_theme = 'sphinx_rtd_theme'
 
 # Add any paths that contain custom static files (such as style sheets) here,
