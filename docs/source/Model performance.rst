@@ -36,7 +36,7 @@ Transformer model
 
 
 ***** 
-Full results
+F1 Scores for all models
 *****
 +-------------------+-------+------------+------------------+------------------------+--------------+
 | ASC               | Freq  | lemma      | syntactic frame  | lemma+syntactic frame  | transformer  |

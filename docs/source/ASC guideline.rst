@@ -1,14 +1,14 @@
 ASC guideline
 =====
 
-In this section, we will provide more detailed descriptions and examples of the ASC types that we included for the current study. Note that all examples in the following subsections come from the training section of the treebank.
+In this section, we will provide more detailed descriptions and examples of the ASC types that we included in the current study. Note that all examples in the following subsections come from the training section of the treebank.
 
 .. _ATTR:
 
 ******
 ATTR
 ******
-* The **attributive** (ATTR) ASC includes two arguments, namely a *theme* and an *attriubute*. The *attriubute* is prototypically represented by a noun phrase, an adjective phrase, or a prepositional phrase. Most commonly, the copular verb *be* is used. The verbs *seem* and *look* also appeared frequently in the training set.
+* The **attributive** (ATTR) ASC includes two arguments, namely a *theme* and an *attribute*. The *attribute* is prototypically represented by a noun phrase, an adjective phrase, or a prepositional phrase. Most commonly, the copular verb *be* is used. The verbs *seem* and *look* alsoappear frequently with this construction in the EWT/ASCT.
 
   * **Syntactic frame (example)**: Subj-V\ :sub:`copular`-NP/AdjP/PP
 
@@ -28,7 +28,7 @@ ATTR
 ******
 INTRAN_S
 ******
-* The **intransitive simple** (INTRAN_S) ASC includes a single argument and typically denotes either what *agent* does or what happens to a *theme*. In the training set, the verbs *go*, *work*, and *live* appeared frequently within this construction.
+* The **intransitive simple** (INTRAN_S) ASC includes a single argument and typically denotes either what *agent* does or what happens to a *theme*. In the training set, the verbs *go*, *work*, and *live* appear frequently with this construction in the EWT/ASCT.
 
   * **Syntactic frame (example)**: Subj-V 
 
@@ -46,7 +46,7 @@ INTRAN_S
 ******
 INTRAN_MOT
 ******
-* The **intransitive motion** (INTRAN_MOT) ASC involves two arguments including a *mover/theme* and a *path* (Goldberg, 1995). The path is prototypically denoted via an adverbial particle or a prepositional phrase. The verbs *go*, *come*, and *get* appeared frequently within this construction.
+* The **intransitive motion** (INTRAN_MOT) ASC involves two arguments including a *mover/theme* and a *path* (Goldberg, 1995). The path is prototypically denoted via an adverbial particle or a prepositional phrase. The verbs *go*, *come*, and *get* appear frequently with this construction in the EWT/ASCT.
 
   * **Syntactic frame (example)**: Subj-V-AdvPr/PP 
 
@@ -64,7 +64,7 @@ INTRAN_MOT
 ******
 INTRAN_RES
 ******
-* The **intransitive resultative** (INTRAN_RES) ASC involves two arguments including a *patient* and a *result*. The result denotes a patient's changed state. The verbs *become*, *come*, *go* were commonly appeared within this construction.
+* The **intransitive resultative** (INTRAN_RES) ASC involves two arguments including a *patient* and a *result*. The result denotes a patient's changed state. The verbs *become*, *come*, *go* appear frequently with this construction in the EWT/ASCT.
 
   * **Syntactic frame (example)**: Subj-V-NP/AdjP  
 
@@ -82,7 +82,7 @@ INTRAN_RES
 ******
 TRAN_S
 ******
-* The **transitive simple** (TRAN_S) ASC involves two arguments that describe an action done by a subject to an object, thus prototypically includes an *agent* and a *theme/patient* as arguments. This construction may include several subcategories (as well as a various semantic arguments) such as mental activities, explanations of a subject's state, and communication activities such as speaking or writing (Biber et al., 1999). The most frequent verbs within this construction were *have*, *do*, and *get*.
+* The **transitive simple** (TRAN_S) ASC involves two arguments that describe an action done by a subject to an object, thus prototypically includes an *agent* and a *theme/patient* as arguments. This construction may include several subcategories (as well as a various semantic arguments) such as mental activities, explanations of a subject's state, and communication activities such as speaking or writing (Biber et al., 1999). The most frequent verbs within this construction in the EWT/ASCT are *have*, *do*, and *get*.
 
   * **Syntactic frame (example)**: Subj-V-Obj  
 
@@ -104,7 +104,7 @@ TRAN_S
 ******
 DITRAN
 ******
-* The **ditransitive** (DITRAN) ASC prototypically includes three arguments of *agent*, *recipient*, and *theme*, evoking the notion of literal or metaphorical transfer. This construction is inclusive of the transfer of a topic during communication. The verbs *give* and *send* appeared frequently, and the verbs *tell* and *ask* were appeared commonly when the construction was used in the communication situation.
+* The **ditransitive** (DITRAN) ASC prototypically includes three arguments of *agent*, *recipient*, and *theme*, evoking the notion of literal or metaphorical transfer. This construction is inclusive of the transfer of a topic during communication. The verbs *give* and *send* appear frequently, and the verbs *tell* and *ask* appear commonly when the construction is used in a communication situation.
 
   * **Syntactic frame (example)**: Subj-V-Obj\ :sub:`indirect`-Obj\ :sub:`direct`
 
@@ -122,7 +122,7 @@ DITRAN
 ******
 CAUS_MOT
 ******
-* The **caused-motione** (CAUS_MOT) ASC is one of the complex transitive constructions, which include three arguments. The construction involves an *agent* that causes a *theme* to move along a path designated by a directional phrase (Goldberg, 1999). Semantically, this construction is inclusive of both direct and indirect causation. In the training set, the verbs *put*, *take*, and *send* appeared most frequently.
+* The **caused-motione** (CAUS_MOT) ASC is one of the complex transitive constructions, which include three arguments. The construction involves an *agent* that causes a *theme* to move along a path designated by a directional phrase (Goldberg, 1999). Semantically, this construction is inclusive of both direct and indirect causation. The verbs *put*, *take*, and *send* appear frequently with this construction in the EWT/ASCT.
 
   * **Syntactic frame (example)**: Subj-V-Obj-PP 
 
@@ -140,7 +140,7 @@ CAUS_MOT
 ******
 TRAN_RES
 ******
-* The **transitive resultative** (TRAN_RES) ASC is the other type of the complex transitive constructions. The construction involves an *agent*, a *theme*, and a *result* wherein the *agent* causes the theme to become the *result*. We also include verb-particle constructions wherein the paired particle has a figurative meaning of the resultative state. The most frequent verbs were *let*, *make* and *get* in the training set.
+* The **transitive resultative** (TRAN_RES) ASC is the other type of the complex transitive constructions. The construction involves an *agent*, a *theme*, and a *result* wherein the *agent* causes the theme to become the *result*. We also include verb-particle constructions wherein the paired particle has a figurative meaning of the resultative state. The verbs *let*, *make* and *get* appear frequently with this construction in the EWT/ASCT.
 
   * **Syntactic frame (example)**: Subj-V-Obj-NP/AdjP 
 
@@ -158,7 +158,7 @@ TRAN_RES
 ******
 PASSIVE
 ******
-* The **passive** (PASSIVE) ASC contains short passive (a form without an expressed agent in *by*-phrase and long passive (with an expressed agent). We also include past particle pre-modifiers and post-modifiers in this ASC type. In the training set, the verbs *do*, *attach*, and *make* appeared most commonly.
+* The **passive** (PASSIVE) ASC contains short passive (a form without an expressed agent in *by*-phrase and long passive (with an expressed agent). We also include past particle pre-modifiers and post-modifiers in this ASC type. The verbs *do*, *attach*, and *make* appear frequently with this construction in the EWT/ASCT.
 
   * **Syntactic frame (example)**: Subj-auxV\ :sub:`past participle` (-*by*-PP) 
 
