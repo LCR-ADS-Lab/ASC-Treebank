@@ -5,7 +5,7 @@ Quick overview
 ASC Tagset
 *****
 
-Learned correspondences between form and function vary in terms of complexity and abstraction (e.g., Fillmore, Kay, & O'Connor, 1998; Goldberg, 2013), and so do the examples of the ASCs. There is currently no definitive set of ASCs that should be included in an ASC tagset. The current study drew on a range of previous literature (e.g., Biber et al., 1999; Goldberg, 1995; 2006; Hwang & Kim, 2022) and selected **nine ASC types** as a tagset, which are described by syntactic frames (Kyle, 2016; Kyle & Crossley, 2017; Kyle et al., 2021) and semantic frames (Fillmore, 1968; Palmer et al., 2005; Palmer, Gildea, & Xue, 2010). 
+Learned correspondences between form and function vary in terms of complexity and abstraction (e.g., Fillmore, Kay, & O'Connor, 1998; Goldberg, 2013), and so do the examples of the ASCs. There is currently no definitive set of ASCs that should be included in an ASC tagset. The current study drew on a range of previous literature (e.g., Biber et al., 1999; Goldberg, 1995; 2006; Hwang & Kim, 2022) and selected **nine ASC types** as a tagset. These are briefly summarized below with frequently occuring syntactic(Kyle, 2016; Kyle & Crossley, 2017; Kyle et al., 2021) and semantic (Fillmore, 1968; Palmer et al., 2005; Palmer, Gildea, & Xue, 2010) frames. 
 
 +-------------------+--------------------------------------------------+------------------------------------------------------------------------+
 | ASC tag           | Syntactic frame (example)                        | Semantic frame (example)                                               |
