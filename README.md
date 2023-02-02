@@ -5,7 +5,7 @@ The ASC Treebank was used to train a Spacy transformer model that annotates ASCs
 
 If you use the model or the treebank, please cite:
 
-Kyle, K. & Sung, H. (2023). 
+Kyle, K. & Sung, H. (2023). An argument structure construction treebank, CxG+NLP, GURT (Georgetown University Round Table) 2023.
 
 
 
