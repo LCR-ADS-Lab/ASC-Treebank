@@ -10,14 +10,13 @@ In cognitive linguistics, a construction represents a form-meaning pair. Constru
 
 Citation
 ========
-If you use .... please cite `this <url>`_:
+If you use the model or the treebank, please cite `this <url>`_ (*url will be updated*):
 
 .. code-block:: bibtex
 
-   @link for the paper will be updated
-
-
 Kyle, K. & Sung, H. (2023). An argument structure construction treebank, CxG+NLP, GURT (Georgetown University Round Table) 2023.
+
+
 
 Contents
 ========
