@@ -40,13 +40,13 @@ We developed an ASC treebank by building on the English portion of the Universal
 ***** 
 Creating an ASC treebank
 *****
-#. For each sentence in the training section of EWT, we extracted the large-grained argument structures (e.g., *ARG0*-V-*ARG1*).
-#. We converted the large-grained arguments to fine-grained semantic role frames (e.g., *agent*-V-*theme*), using relation mappings from PropBank (Palmer et al.. 2005), which alro draws on information in FrameNet (Fillmore et al., 2003) and VerbNet (Schuler, 2005).
-#. We manually assigned an ASC to each semantic role frame that occured at least 5 times in the corpus.
-#. We also checked all semantic role frame + verb sense combinations in the training data that occurred at least 2 times because the semantic role for some verb senses are underspecified in PropBank.
-#. We conducted spot checks for underspecified semantic role frames (a small number of tag corrections)
-#. This approach resulted in the categorization of 94.1% of the ASCs in the treebank.
-#. Any sentences that included uncategorized ASCs were omitted from further analysis.
+#. For each sentence in the training section of EWT, we extracted the large-grained argument structures using the default PropBank semantic role labels (e.g., *ARG0*-Verbsense-*ARG1*).
+#. We converted the large-grained arguments to fine-grained semantic role frames (e.g., *agent*-V-*theme*), using relation mappings from PropBank frame files (Palmer et al., 2005), which also draws on information in FrameNet (Fillmore et al., 2003) and VerbNet (Schuler, 2005).
+#. Based on a discussion of ASC categorization between the authors that included co-annotation of 100 sentences, we manually assigned an ASC to each semantic role frame that occured at least times in the corpus (*n* = 355). For example, the semantic role frame *theme-Verb-attribute* was annotated as an attributive construction and *agent-Verb-theme* was annotated as a transitive simple construction.
+#. In some cases, the corpus analysis indicated that particular semantic role frames could represent multiple ASCs. This most often occurred in cases where a fine-grained semantic role for a particular argument of a particular verb was unavailable in PropBank, leading to an underspecified semantic role frame. In these cases, the use of each 'semantic role frame + verb' combination that occurred at least twice in the treebank was checked and each was assigned an ASC.
+#. Particularly ambiguous cases were resolved through discussions between the authors.
+#. As a final step, we conducted spot checks which led to a small number of corrections. This approach resulted in the categorization of 94.1% of the ASCs in the treebank. Any sentences that included uncategorized ASCs were omitted from further analysis.
+#. We also evaluated the quality of the semi-automated annotation process (for more information, see Kyle & Sung (2023)).
 
 ***** 
 ASC representation in Treebank
