@@ -8,7 +8,7 @@ In this section, we will provide more detailed descriptions and examples of the 
 ******
 ATTR
 ******
-* The **attributive** (ATTR) ASC includes two arguments, namely a *theme* and an *attribute*. The *attribute* is prototypically represented by a noun phrase, an adjective phrase, or a prepositional phrase. Most commonly, the copular verb *be* is used. The verbs *seem* and *look* alsoappear frequently with this construction in the EWT/ASCT.
+* The **attributive** (ATTR) ASC includes two arguments, namely a *theme* and an *attribute*. The *attribute* is prototypically represented by a noun phrase, an adjective phrase, or a prepositional phrase. Most commonly, the copular verb *be* is used. The verbs *seem* and *look* also appear frequently with this construction in the EWT/ASCT.
 
   * **Syntactic frame (example)**: Subj-V\ :sub:`copular`-NP/AdjP/PP
 
