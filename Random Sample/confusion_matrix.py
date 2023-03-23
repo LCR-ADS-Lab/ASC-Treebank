@@ -1,6 +1,6 @@
 from sklearn.metrics import confusion_matrix, cohen_kappa_score
 
-eval_file = open("Annotated/Eval2_simple.csv").read().split("\n")
+eval_file = open("Annotated/Eval2_simple.csv").read().split("\n")#simplified agreement file
 #len(eval_file)
 
 def make_anno_list(evals,col,sep = ","):
