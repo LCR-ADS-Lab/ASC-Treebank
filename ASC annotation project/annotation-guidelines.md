@@ -4,8 +4,8 @@ This document provides an initial guideline of the ASC tags used.
 
 If you have questions when tagging, please follow this procedure:
 - Check the tagging scheme below.
-- Check this [documentation](https://asc-treebank.readthedocs.io/en/latest/).
-- Check these [slides](https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf), if you need a brief introduction about the semantic roles (e.g., agent, path) used in <b>semantic frames</b>.
+- Check this <a href="https://asc-treebank.readthedocs.io/en/latest/ASC%20guideline.html" target="_blank">documentation</a>.
+- Check these <a href="https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf" target="_blank">slides</a>, if you need a brief introduction about the semantic roles (e.g., agent, path) used in <b>semantic frames</b>.
 - <b>Bring up the issue in our weekly meeting</b>, if the annotations are ambigurous.
 
 ## ASC tagging Scheme
