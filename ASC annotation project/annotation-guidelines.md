@@ -26,7 +26,7 @@ Here, each `tag` is described and examples of each are also given.
 
 ## ASC tagging steps
 
-1. The provided data is structured in the [CoNLL-U format](https://universaldependencies.org/format.html), which presents each sentence in a vertical arragement. In this format, the columns are presented in the following order:
+1. The provided data is structured in the <a href="https://universaldependencies.org/format.html" target="_blank">CoNLL-U format</a>, which presents each sentence in a vertical arragement. In this format, the columns are presented in the following order:
 
 ```
     1. ID: Word index.
