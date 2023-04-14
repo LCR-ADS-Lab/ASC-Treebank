@@ -28,44 +28,45 @@ Here, each `tag` is described and examples of each are also given.
 
 1. The provided data is structured in the [CoNLL-U format](https://universaldependencies.org/format.html), which presents each sentence in a vertical arragement. In this format, the columns are presented in the following order:
 
-    1. ID: Word index, integer starting at 1 for each new sentence; may be a range for multiword tokens; may be a decimal number for empty nodes (decimal numbers can be lower than 1 but must be greater than 0).
-    
+```
+    1. ID: Word index.
     2. FORM: Word form or punctuation symbol.
-    
     3. LEMMA: Lemma or stem of word form (currently empty).
-    
     4. UPOS: Universal part-of-speech tag.
-    
     5. XPOS: Language-specific part-of-speech tag; underscore if not available.
-
-    6. FEATS: List of morphological features from the universal feature inventory or from a defined language-specific extension; underscore if not available (currently empty).
-
+    6. FEATS: List of morphological features from the universal feature inventory (currently empty).
     7. HEAD: Head of the current word, which is either a value of ID or zero (0).
-
-    8. DEPREL: Universal dependency relation to the HEAD (root iff HEAD = 0) or a defined language-specific subtype of one.
-
+    8. DEPREL: Universal dependency relation to the HEAD (root iff HEAD = 0).
     9. DEPS: Enhanced dependency graph in the form of a list of head-deprel pairs.
-
     10. MISC: Any other annotation.
+```
+
+2. Among the columns, `4`, `8`, and `10` are crucial, as we will tag the ASC in the 10th column for every `VERB` that appears in the `4th` column. In most cases, this overlaps with the `root` found in the `8th` column. 
+
+### Practice with examples
+
+##### Example 1
+<img src="https://user-images.githubusercontent.com/84297888/232111316-5ab514ed-bfeb-4774-a3c5-cabf97cab336.png" width="550" alt="example image1-1">
+  
+  - Identify the VERB (located in column 4) and the root (located in column 8).
+  - Determine the appropriate ASC tag by taking into account both syntactic and semantic frames.
+  - Once you have decided on the ASC tag, enter it into the 10th column.
+<img src="https://user-images.githubusercontent.com/84297888/232111999-e5c869ad-5388-41b7-a5db-96dfe2414268.png" width="550" alt="example image1-2">
 
 
-2. Of the columns, `4`,`8` and `10` is important, because we will tag ASC on the `10`th column for either every `VERB` that appears in the `4`th column and every `root` that appears in the `8`th column (often they overlap). 
+##### Example 2
+<img src="https://user-images.githubusercontent.com/84297888/232112756-d7b80fc2-61d7-4ca8-b315-13e49875d2f3.png" width="550" alt="example image2">
 
-3. Practice with examples
+ - Occasionally, a sentence may have a root but no verb, particularly when the data originates from spoken discourse.
+ - In such examples, we will not assign any ASC tag to the sentence, as it lacks the necessary components for accurate analysis and processing.
 
-- Example 1
+##### Example 3
+<img src="https://user-images.githubusercontent.com/84297888/232115934-1209d37e-027c-48c2-b064-539c28903c2a.png" width="550" alt="example image3-1">
 
-    - Identify the VERB (located in column 4) and the root (located in column 8).
-    - Determine the appropriate ASC tag by taking into account both syntactic and semantic frames.
-    - Once you have decided on the ASC tag, enter it into the 10th column.
+ - In this case, you need to assign three ASC tags, as the `VERB` can be identified three times in a given snetence.
+ - Keep in mind that the `TRAN_S` tag may include several subcategories (as well as a various semantic arguments) such as mental activities, explanations of a subject’s state, and communication activities such as speaking or writing.
+ - For the last verb `eat`, even though we cannot directly identify the object of the verb in the syntactic frame, it is essential to consider its meaning (as we can infer the object of the verb while reading the sentence, i.e., `what`).
+    
+<img src="https://user-images.githubusercontent.com/84297888/232117260-8eb7616b-5ae7-48e2-8df1-ecd688516549.png" width="550" alt="example image3-2">
 
-- Example 2
-
-    - Occasionally, a sentence may be challenging to analyze due to its brevity (or many other reasons) when determining the appropriate ASC tag. 
-    - Nevertherless, it is crucial to assign an ASC tag to every root that appears in the corpus.
-    - For this example, I would rely on the syntactic frame to guide my decision.
-
-- Example 3
-
-    - In this case, you need to assign two ASC tags, as both `root` and `VERB` can be identified.
-    - Keep in mind that the `TRAN_S` tag may include several subcategories (as well as a various semantic arguments) such as mental activities, explanations of a subject’s state, and communication activities such as speaking or writing.
+    
