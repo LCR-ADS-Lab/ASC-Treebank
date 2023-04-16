@@ -16,7 +16,7 @@ ATTR
   
   * **Examples sentences**
   
-    * *it*\ :sub:`theme` *was* *an evoluation*\ :sub:`attribute`
+    * *it*\ :sub:`theme` *was* *an evolution*\ :sub:`attribute`
     
     * *I*\ :sub:`theme` *am* *sure*\ :sub:`attribute`
     
