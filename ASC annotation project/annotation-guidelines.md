@@ -3,12 +3,13 @@
 This document provides an initial guideline of the ASC tags used.
 
 If you have questions when tagging, please follow this procedure:
-- Check the tagging scheme below.
+- Check the [ASC tagging scheme](#asc-tagging-scheme) below.
+- Check the [decision tree](#decision-tree) below.
 - Check the detalied <a href="https://asc-treebank.readthedocs.io/en/latest/ASC%20guideline.html" target="_blank">guidelines</a> for each tag.
 - Check these <a href="https://web.stanford.edu/~jurafsky/slp3/slides/22_SRL.pdf" target="_blank">slides</a>, if you need a brief introduction about the semantic roles (e.g., agent, path) used in <b>semantic frames</b>.
 - <b>Bring up the issue in our weekly meeting</b>, if the annotations are ambigurous.
 
-## ASC tagging Scheme
+## ASC tagging scheme
 Here, each `tag` is described and examples of each are also given.
 
 | **ASC tag**    | **Syntactic frame (example)**                      | **Semantic frame (example)**                                                |
@@ -69,4 +70,7 @@ Here, each `tag` is described and examples of each are also given.
     
 <img src="https://user-images.githubusercontent.com/84297888/232117260-8eb7616b-5ae7-48e2-8df1-ecd688516549.png" width="550" alt="example image3-2">
 
-    
+## Decision tree
+
+![image](https://user-images.githubusercontent.com/84297888/233741248-7a4accab-3243-4206-b952-cb8ec8bf5819.png)
+
