@@ -80,7 +80,7 @@ VerbNet
 -----
 Universal Proposition (UP) Banks
 -----
-* UP project bannnotated text in different languages with universal semantic role labelling annotations.
+* UP project annnotated text in different languages with universal semantic role labelling annotations.
 * This project used the frame and role labels of the English PropBank.
 
 * References
