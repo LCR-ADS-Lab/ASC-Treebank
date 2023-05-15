@@ -7,3 +7,4 @@ like.02	230510	"modal, would you like to"	TRAN_S	NA
 stand.11	230510	stand for; (may include other particles)	CAUS_MOT	TRAN_S
 talk.01	230510	agent_V_recipient	TRAN_S	INTRAN_MOT
 stand.01	230515	theme_V_location	INTRAN_MOT	INTRAN_S?
+do.LV	230515	"[IMPORTANT] not every do.LV, but the ones with do + V-ing (e.g., do sculpting); neglect 'do anything'; search by using 'do\s\w+ing\b'"	TRAN_S	NA
