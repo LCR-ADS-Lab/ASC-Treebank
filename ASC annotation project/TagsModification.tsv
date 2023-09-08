@@ -16,3 +16,6 @@ help	230816	(# sent_id = # sent_id = 0100_2000_6-doc49.xml-18) should be TRAN_RE
 hurl	230816	(# sent_id = 0102_2000_6-doc1861.xml-19)	should be INTRAN_MOT	CAUS_MOT	INTRAN_MOT 
 blew	230816	(# sent_id = file00250.txt_87)	phrasal verb?	CAUS_MOT	TRAN_S?
 keep	230908	check every instance of 'keep', not tagged as TRAN_RES	TRAN_S	TRAN_RES
+have	230908	light verbs might not have checked (e.g., have a bath tagged as TRAN_S)	TRAN_S	?
+leave	230908	check every instance of 'leave', not tagged as TRAN_RES (e.g., leave him alone)	TRAN_S	TRAN_RES
+recommend	230908	check along with 'suggest'	TRAN_S	TRAN_RES
