@@ -10,3 +10,9 @@ stand.01	230515	theme_V_location	INTRAN_MOT	INTRAN_S?
 do.LV	230515	"[IMPORTANT] not every do.LV, but the ones with do + V-ing (e.g., do sculpting); neglect 'do anything'; search by using 'do\s\w+ing\b'"	TRAN_S	NA		"So what do we do with the gerund? In most cases, we clearly have a verb phrase."	20230531
 stay	230605	treat 'INTRAN+loc' as INTRAN_S; not ATTR	ATTR	INTRAN_S			
 remain	230605	treat 'INTRAN+loc' as INTRAN_S; not ATTR	ATTR	INTRAN_S			
+changed	230808	(# sent_id = 0100_2000_12-doc1530.xml-5) should be PASSIVE	INTRAN_S	PASSIVE
+fly	230809	(# sent_id = 0102_2000_6-doc1201.xml-15) should be INTRAN_S	INTRAN_MOT	INTRAN_S
+help	230816	(# sent_id = # sent_id = 0100_2000_6-doc49.xml-18) should be TRAN_RES	DITRAN	TRAN_RES
+hurl	230816	(# sent_id = 0102_2000_6-doc1861.xml-19)	should be INTRAN_MOT	CAUS_MOT	INTRAN_MOT 
+blew	230816	(# sent_id = file00250.txt_87)	phrasal verb?	CAUS_MOT	TRAN_S?
+keep	230908	check every instance of 'keep', not tagged as TRAN_RES	TRAN_S	TRAN_RES
