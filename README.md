@@ -1,9 +1,8 @@
 # ASC-Treebank
 
-
 ## Basic information
 This is the repository for the Argument Structure Construction (ASC) Treebank.
-The ASC Treebank was used to train a Spacy transformer model that annotates ASCs with a high degree of accuracy (F1 = .918). 
+The ASC Treebank was used to train a Spacy transformer model that annotates ASCs with a high degree of accuracy (L1: F1 = .912; L2-written: F1 = .915; L2-spoken: F1 = .928). 
 
 ### ASC tags overview
 Learned correspondences between form and function vary in terms of complexity and abstractionm, and so do the examples of the ASCs. There is currently no definitive set of ASCs that should be included in an ASC tagset. The current study drew on a range of previous literature and selected nine ASC types as a tagset. 
@@ -23,16 +22,20 @@ Learned correspondences between form and function vary in terms of complexity an
 
 ## Documentation
 
-The documenation for the ASC-Treebank is available [here](https://asc-treebank.readthedocs.io/en/latest/).
+The documenation for the ASC-Treebank is available online [here](https://asc-treebank.readthedocs.io/en/latest/).
+The more detailed version of the documenation for the ASC-Treebank construction (based on manual annotations) is available in a pdf-version [here](./docs/PDFmanuals/ASC_manual_240301.pdf).
 
 ## Demo
-The annotation model (including a demo) is available [here](https://huggingface.co/kriskyle/en_pipeline).
+The annotation model (including a demo) is available [here](https://huggingface.co/kriskyle/en_pipeline) (*will be upated with a new model soon*).
 
 ## Citation
-If you use the model or the treebank, please cite [this paper](https://aclanthology.org/2023.cxgsnlp-1.7/):
+If you use the model or the treebank, please refer to the following papers:
 
-Kyle, K. & Sung, H. (2023). An argument structure construction treebank, In *Proceedings of the First International Workshop on Construction Grammars and NLP (CxGs+NLP, GURT/SyntaxFest 2023)*, 51–62, Association for Computational Linguistics.
+Kyle, K. & Sung, H. (2023). [An argument structure construction treebank](https://aclanthology.org/2023.cxgsnlp-1.7/), In *Proceedings of the First International Workshop on Construction Grammars and NLP (CxGs+NLP, GURT/SyntaxFest 2023)*, 51–62, Association for Computational Linguistics.
 
+Sung, H., & Kyle, K. (2024). [Annotation Scheme for English Argument Structure Constructions Treebank](https://aclanthology.org/2024.law-1.2/). In *Proceedings of The 18th Linguistic Annotation Workshop (LAW-XVIII)*, 12-18, Association for Computational Linguistics.
+
+Sung, H., & Kyle, K. (in press). Leveraging pre-trained language models for linguistic analysis: A case of argument structure constructions. In *the Association for Computational Linguistics: EMNLP 2024*
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.

@@ -1,0 +1,56 @@
+task_description = """
+You are tasked with generating English sentences annotated for argument structure constructions (ASCs).
+Each verb in the sentence that forms an ASC should be labeled with one of seven different ASC tags:
+(1) transitive simple (TRAN_S),
+(2) transitive resultative (TRAN_RES),
+(3) caused-motion (CAUS_MOT),
+(4) intransitive simple (INTRAN_S),
+(5) intransitive motion (INTRAN_MOT),
+(6) intransitive resultative (INTRAN_RES),
+(7) ditransitive (DITRAN).
+Labels should be attached directly after the verb and separated by a pipe '|' character. Words without an ASC tag should be tagged with 'O'.
+A sentence may contain multiple ASCs.
+The format for each sentence should be as follows:
+The|O urge|O to|O and|O gather|CAUS_MOT them|O all|O in|O almost|O overwhelming|O ,|O and|O makes|TRAN_RES me|O more|O grateful|O
+that|O would|O help|TRAN_S cut|TRAN_RES popular|O support|O off|O from|O jihadis|O attempting|TRAN_S to|O convert|TRAN_RES Kashmir|O into|O a|O second|O Afghanistan|O .|O
+I|O go|INTRAN_MOT to|O Camp|O California|O in|O the|O USA|O and|O I|O give|DITRAN you|O further|O information|O .|O
+I|O will|O give|DITRAN you|O the|O information|O which|O you|O asked|DITRAN me|O in|O your|O letter|O
+We|O not|O only|O borrow|CAUS_MOT books|O from|O liabrary|O but|O also|O study|INTRAN_S at|O liabrary|O .|O
+I|O suggest|TRAN_S you|O should|O go|INTRAN_S by|O train|O and|O go|INTRAN_MOT out|O in|O the|O Museum|O Station|O .|O
+If|O an|O egg|O turns|INTRAN_RES blue|O ,|O it|O had|O died|INTRAN_S and|O then|O became|INTRAN_RES dyed|O as|O the|O outer|O membrane|O broke|INTRAN_RES down|O .|O
+my|O wife|O 's|O taste|O ran|INTRAN_MOT to|O lemonade|O and|O less|O spicy|O fare|O .|O
+he|O does|O not|O call|CAUS_MOT you|O back|O by|O friday|O
+"""
+
+def generate_annotated_sentences(number_of_sentences, output_file_name):
+    annotated_sentences = []
+    with open(output_file_name, 'a') as file:  # Open file in append mode
+        while len(annotated_sentences) < number_of_sentences:
+            try:
+                batch_size = min(10, number_of_sentences - len(annotated_sentences))
+                prompt = task_description + f"Generate {batch_size} sentences."
+                messages = [{
+                    "role": "user",
+                    "content": prompt
+                }]
+                response = openai.ChatCompletion.create(
+                    model="gpt-4",
+                    messages=messages,
+                    max_tokens=300,
+                    temperature=0.3
+                )
+
+                # Assuming each choice returns one complete sentence as text
+                for choice in response.choices:
+                    sentence = choice['message']['content'].strip()
+                    if sentence:
+                        file.write(sentence + "\n")
+                        annotated_sentences.append(sentence)
+                        logging.info("Added a new sentence to the file.")
+            except Exception as e:
+                logging.error(f"An error occurred: {e}")
+                break
+
+# Set the number of sentences and the output file name
+output_file_name = ''
+generate_annotated_sentences(469, output_file_name)
