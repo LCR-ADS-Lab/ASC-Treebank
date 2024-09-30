@@ -22,8 +22,8 @@ Learned correspondences between form and function vary in terms of complexity an
 
 ## Documentation
 
-The documenation for the ASC-Treebank is available online [here](https://asc-treebank.readthedocs.io/en/latest/).
-The more detailed version of the documenation for the ASC-Treebank construction (based on manual annotations) is available in a pdf-version [here](./docs/PDFmanuals/ASC_manual_240301.pdf).
+- The documenation for the ASC-Treebank is available [online](https://asc-treebank.readthedocs.io/en/latest/).
+- The more detailed version of the documentation for the ASC-Treebank construction (based on manual annotations) is available in [PDF format](./docs/PDFmanuals/ASC_manual_240301.pdf).
 
 ## Demo
 The annotation model (including a demo) is available [here](https://huggingface.co/kriskyle/en_pipeline) (*and will be upated with a new model soon*).
