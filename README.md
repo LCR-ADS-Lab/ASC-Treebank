@@ -35,7 +35,7 @@ Kyle, K. & Sung, H. (2023). [An argument structure construction treebank](https:
 
 Sung, H., & Kyle, K. (2024). [Annotation Scheme for English Argument Structure Constructions Treebank](https://aclanthology.org/2024.law-1.2/). In *Proceedings of The 18th Linguistic Annotation Workshop (LAW-XVIII)*, 12-18, Association for Computational Linguistics.
 
-Sung, H., & Kyle, K. (in press). Leveraging pre-trained language models for linguistic analysis: A case of argument structure constructions. In *the Association for Computational Linguistics: EMNLP 2024* [paper](./24_ASC-EMNLP-dataset/Sung_Kyle_EMNLP24_camera_ready.pdf)
+Sung, H., & Kyle, K. (in press). [Leveraging pre-trained language models for linguistic analysis: A case of argument structure constructions](./24_ASC-EMNLP-dataset/Sung_Kyle_EMNLP24_camera_ready.pdf). In *the Association for Computational Linguistics: EMNLP 2024*.
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
