@@ -19,11 +19,9 @@ Learned correspondences between form and function vary in terms of complexity an
 | **TRAN_RES**   | Subj-V-Obj-NP                                      | X<sub>agent</sub> causes Y<sub>theme</sub> to become Z<sub>state</sub>      |
 | **PASSIVE**    | Subj-auxV<sub>past participle</sub>(-*by*-PP)      | X<sub>theme</sub> undergo V (*by* Y<sub>agent</sub>)                        |
 
-
 ## Documentation
-
-- The documenation for the ASC-Treebank is available [online](https://asc-treebank.readthedocs.io/en/latest/).
-- The more detailed version of the documentation for the ASC-Treebank construction (based on manual annotations) is available in [PDF format](./docs/PDFmanuals/ASC_manual_240301.pdf).
+- The documenation for the ASC-Treebank (v1) is available [online](https://asc-treebank.readthedocs.io/en/latest/).
+- The more detailed version of the documentation (v2) is available in [PDF format](./docs/PDFmanuals/ASC_manual_240301.pdf).
 
 ## Demo
 - The annotation model (trained on the ASC treebank v1) (including a demo) is available [here](https://huggingface.co/kriskyle/en_pipeline).
