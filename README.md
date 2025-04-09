@@ -25,7 +25,7 @@ Learned correspondences between form and function vary in terms of complexity an
 
 ## Demo
 - The annotation model (trained on the ASC treebank v1) (including a demo) is available [here](https://huggingface.co/kriskyle/en_pipeline).
-- The ASC tagger demo (trained on the ASC treebank v2) is available [here](http://ix.cs.uoregon.edu:9279/) (updated Oct. 2024).
+- The updated annotation model (trained on the ASC treebank v2) is available [here](https://huggingface.co/hksung/ASC_tagger_v2); you can find ASC tagger demo [here](https://huggingface.co/spaces/hksung/ASC_tagger_V2) (updated Apr. 2025).
 
 ## Citation
 If you use our treebanks or models, please refer to the following papers:
