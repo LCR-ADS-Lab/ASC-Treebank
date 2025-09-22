@@ -29,7 +29,7 @@ Learned correspondences between form and function vary in terms of complexity an
 - The annotation model (trained on the ASC treebank v1) (including a demo) is available [here](https://huggingface.co/kriskyle/en_pipeline).
 
 ## Related tool
-- We published a paper/repository on the ASC Analyzer. see [here](https://github.com/hksung/ASC-analyzer) (updated Sep. 2025).
+- We published a paper/repository on the [ASC Analyzer](https://github.com/hksung/ASC-analyzer) (updated Sep. 2025).
   
 ## Citation
 If you use our treebanks or models, please refer to the following papers:
