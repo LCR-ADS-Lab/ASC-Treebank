@@ -33,7 +33,7 @@ Learned correspondences between form and function vary in terms of complexity an
   
 ## Citation
 If you use our treebanks or models, please refer to the following papers:
-- (ASC model v2) Sung, H., & Kyle, K. (2025). [Leveraging pre-trained language models for linguistic analysis: A case of argument structure constructions](https://aclanthology.org/2024.emnlp-main.415/). In *the Association for Computational Linguistics: EMNLP 2024*.
+- (ASC model v2) Sung, H., & Kyle, K. (2024). [Leveraging pre-trained language models for linguistic analysis: A case of argument structure constructions](https://aclanthology.org/2024.emnlp-main.415/). In *the Association for Computational Linguistics: EMNLP 2024*.
 - (ASC treebank v2) Sung, H., & Kyle, K. (2024). [Annotation Scheme for English Argument Structure Constructions Treebank](https://aclanthology.org/2024.law-1.2/). In *Proceedings of The 18th Linguistic Annotation Workshop (LAW-XVIII)*, 12-18, Association for Computational Linguistics.
 - (ASC treebank + model v1,) Kyle, K. & Sung, H. (2023). [An argument structure construction treebank](https://aclanthology.org/2023.cxgsnlp-1.7/), In *Proceedings of the First International Workshop on Construction Grammars and NLP (CxGs+NLP, GURT/SyntaxFest 2023)*, 51–62, Association for Computational Linguistics.
 
