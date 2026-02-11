@@ -5,7 +5,7 @@ This is the repository for the Argument Structure Construction (ASC) Treebank.
 The ASC Treebank was used to train a Spacy transformer model that annotates ASCs with a high degree of accuracy (L1: F1 = .912; L2-written: F1 = .915; L2-spoken: F1 = .928). 
 
 ### ASC tags overview
-Learned correspondences between form and function vary in terms of complexity and abstractionm, and so do the examples of the ASCs. There is currently no definitive set of ASCs that should be included in an ASC tagset. The current study drew on a range of previous literature and selected nine ASC types as a tagset. 
+Learned correspondences between form and function vary in terms of complexity and abstraction, and so do the examples of the ASCs. There is currently no definitive set of ASCs that should be included in an ASC tagset. The current study drew on a range of previous literature and selected nine ASC types as a tagset. 
 
 | **ASC tag**    | **Syntactic frame (example)**                      | **Semantic frame (example)**                                                |
 |----------------|----------------------------------------------------|-----------------------------------------------------------------------------|
